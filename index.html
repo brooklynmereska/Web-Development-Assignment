@@ -1,8 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html> 
 
-<head></head>
-
+<head>
+<style>
+    html {
+        font-size: 10px;
+    }
+    body {
+        background-color:#832a33;
+    }  
+    h1 {
+        color:#832a33;
+        font:arial, sans-serif;
+        filter: blur(0px);
+        text-align: center;
+        font-size: 10em;
+        filter: opacity(100%)
+    }
+    h2 {
+        color:white;
+    }
+    p {
+        background-color:aliceblue;
+        font-style: italic;
+        font-size: 2em;
+        width: 50%;
+        margin: 1em auto;
+        padding: 1em;
+    } 
+    h3 {
+        font-size: 2em;
+        background-color: white;
+        text-align: center;
+        margin: 1em auto;
+        width: 15%;
+    }
+    h4 {
+        background-color:white;
+        font-size: 2em;
+        width: 15%;
+        text-align: center;
+        margin: 1em auto;
+    }
+    table {
+        background-color:white;
+        font-size: 2em;
+    }
+    table, th, td {
+        border: 1px solid black
+    }
+    input {
+        border-width: medium;
+    }
+    input {
+        border:2px solid white;
+    }
+    form {
+        font:arial;
+        font-size: 2em;
+        border-color: white;
+        
+    }
+    #banner {
+        height: 500px;
+        overflow: hidden;
+        margin: -5em;
+        background-image: url("images/lebronjames.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+    .circleimg {
+        margin: auto;
+        display: block;
+        border-radius: 50%;
+        border: solid 1em #832a33;
+    } 
+    .topnav {
+        font-size: 1.5em;
+    }
+    .squareimg {
+        margin: 1em auto;
+        display: block;
+    }
+    </style>
+    </head>
 <body>
      <div class="topnav">
         <a class="active" href="#home">Home</a>
@@ -10,9 +92,14 @@
         <a href="#Stats">Stats</a>
         <a href="#Sources">Sources</a>
     </div>
-    <h1> LeBron James</h1>
-    <h2> NBA: Cleveland Cavaliers</h2>
-    <img src="images/LeBronJames2.jpg">
+    <div id="banner">
+        <div id="title">
+            <h1> LeBron James</h1>
+            <h2> NBA: Cleveland Cavaliers</h2>
+        </div>
+    </div>
+    <img src="images/lebronjames2.jpg"; class="circleimg">
+    
     <h3><a name="Bio"></a>Bio</h3>
     <p>
     LeBron James is a professional basketball player in the NBA, currently playing for the Cleveland Cavaliers. He has won three NBA Championships and four NBA Most Valuable Player Awards. His first NBA season started in 2003.</p>
@@ -20,6 +107,7 @@
     <h4><a name="Stats"></a>Stats</h4>
     
     <table style="width:100%">
+        
     <tr> 
         <td>Season</td> 
         <td>'03-'04</td>
@@ -45,7 +133,7 @@
             <td>31.4</td>
         </tr>
     </table>
-    <img src="images/LeBronJames.jpg">
+    <img src="images/lebronjames.jpg";class="squareimg">
     <h4>Sign Up For More Info</h4>
     <form>
     First Name:<br>
@@ -63,9 +151,11 @@
     </form>
     <h4><a name="Sources"></a>Sources:</h4>
     <p>
-    pastemagazine.com
+    pastemagazine.com <br>
     espn.com
     </p>
+    <p>
+    I chose this layout to have the most relevant information at the top, and have the information decline in priority as the viewer scroll down. I also wanted the design to be algined with the basketball teams colors.</p>
 </body>
 </html>
 
